@@ -3,7 +3,7 @@
 int main()
 {
 	cout << "Hello , Programming!" << endl;
-	cout << "Here we go!" << endl;
+	cout << "Here we goooooooo!" << endl;
 	keep_window_open();
 	return 0;
 }
