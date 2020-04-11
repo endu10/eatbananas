@@ -1,5 +1,6 @@
 #ignoredfolders
 */.vs/
+.vs/
 Debug/
 
 

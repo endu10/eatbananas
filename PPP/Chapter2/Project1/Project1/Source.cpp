@@ -2,7 +2,8 @@
 
 int main()
 {
-	cout << "Hello , world!" << endl;
+	cout << "Hello , Programming!" << endl;
+	cout << "Here we go!" << endl;
 	keep_window_open();
 	return 0;
 }
