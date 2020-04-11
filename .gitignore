@@ -1,5 +1,5 @@
 #ignoredfolders
-.vs/
+*/.vs/
 Debug/
 
 
