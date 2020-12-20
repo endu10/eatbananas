@@ -2,7 +2,10 @@
 */.vs/
 .vs/
 Debug/
-
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
 
 # Prerequisites
 *.d

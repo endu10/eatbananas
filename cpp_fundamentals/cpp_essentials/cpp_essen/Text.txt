@@ -1,0 +1,4 @@
+//================= Limitations of auto keyword =============================
+1. auto Keyword cannot declare a method return type
+2. auto keyword cannot declare an array
+3. template argument cannot be of auto type.
