@@ -12,8 +12,30 @@
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         
     std::cout<<"    printing something"<<std::endl;
+    ListNode * dummy = new ListNode();
+    ListNode * temp = dummy;
 
-    return 0;
+    int carry = 0;
+    while (NULL != l1 || NULL != l2 || 0 != carry ){
+        int sum = 0;
+        if(NULL != l1){
+            sum += l1->val;
+            l1 = l1->next;
+        }
+        if(NULL != l2){
+            sum += l2->val;
+            l2 = l2->next;
+        }
+
+        sum += carry;
+        carry = sum /10;
+        ListNode *loopTemp = new ListNode(sum %10);
+        temp->next = loopTemp;
+        temp = temp->next;
+
+    }
+
+    return dummy->next;
 }
 
 int main(){
@@ -33,6 +55,8 @@ int main(){
     //std::cout<<"extracted val == "<< extracted->val<<std::endl;
 
     ListNode * l9 = addTwoNumbers(l3,l8);
+
+    //for()
 
     return 0;
 }
