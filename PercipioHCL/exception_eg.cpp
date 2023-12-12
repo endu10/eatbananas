@@ -19,5 +19,8 @@ void sample::Division(){
 int main(){
     sample s;
     s.SetData();
-    s.Division();
+    try{
+        s.Division();
+    }
+    //catch(){};
 }
